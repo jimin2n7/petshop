@@ -12,7 +12,7 @@ function Cart() {
   }
 
   const handleHome = ()=>{
-    navigate("/")
+    navigate("/petshop")
   }
 
   return (
