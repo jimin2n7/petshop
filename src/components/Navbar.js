@@ -5,7 +5,7 @@ import './Navbar.css'
 function Navbar() {
   return (
     <nav className="navbar">
-        <Link to="/">Home</Link>
+        <Link to="/petshop">Home</Link>
         <Link to="/dogs">Dogs</Link>
         <Link to="/checkout">My Cart</Link>
     </nav>
