@@ -27,8 +27,8 @@ function App() {
     <Router>
       <Navbar/>
       <div className="page-container">
+        <Home/>
         <Routes>
-          <Route path='/petshop' element={<Home/>} />
           <Route path='/' element={<Home/>} />
           <Route path='/dogs' element={<Dogs allDogs={allDogs} />} />
           <Route path='/checkout' element={<Cart/>} />
