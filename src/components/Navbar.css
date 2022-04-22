@@ -1,0 +1,17 @@
+.navbar{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar>*{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: #9c6644;
+    transition: 200ms ease-in-out;
+}
+
+.navbar>*:hover{
+    color: #e76f51;
+    border-bottom: 2px solid #e76f51;
+}
